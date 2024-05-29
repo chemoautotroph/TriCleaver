@@ -1,6 +1,7 @@
 import subprocess
 from collections import defaultdict
 import os
+import ViennaRNA
 
 def parse_dot_bracket(dotBracket):
     partners = dict()
