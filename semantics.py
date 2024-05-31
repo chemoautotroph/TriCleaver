@@ -1,5 +1,6 @@
 from utility import avg, flatten
-from vienna  import fold
+# from vienna  import fold
+from viennaThroughAPI import fold
 from fitness import evaluate_rz_activity
 from repr    import Segment
 import numpy as np
